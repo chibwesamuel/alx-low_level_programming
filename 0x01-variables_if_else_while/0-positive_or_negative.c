@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /** 
- * Main - 	This program will assign a random number to the variable n each 
- * 		time it is executed and prints whether the number stored in the 
- * 		variable n is positive or negative 
- *  Return = 0
+ * main - assign a random number to the variable n each 
+ * 	time and prints whether the number stored in the 
+ * 	variable n is positive or negative 
+ * return: always  0
  */
 int main(void)
 {
@@ -14,7 +14,6 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* My code */
-	
 	if (n > 0)
 		printf("%d is positive\n", n);
 	else if (n == 0)
