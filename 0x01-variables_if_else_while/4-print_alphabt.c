@@ -1,19 +1,22 @@
-#include <stdio.h>                                                                                                                      
-/**                                                                                                                                     
- * main - print letters of the alphabet in lowercase                                                                      
+#include <stdio.h>
+/**
+ * main - print letters of the alphabet in lowercase
  *
- * Description: using the main function                                                                                                 
- * this program prints letters of the alphabet                                                                                          
+ * Description: using the main function
+ * this program prints letters of the alphabet
  *
  * Return: 0
- */ 
+ */
 int main(void)
 {
 	char y;
 	
 	for (y = 'a'; y <= 'z'; y++)
 	{
+	if (ch != 'e' && ch != 'q')
+	{
 		putchar(y);
+	}
 	}
 	putchar('\n');
 	return (0);
