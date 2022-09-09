@@ -12,7 +12,7 @@
 
 int main(void)
 {
-	char i;
+	int i;
 	char c;
 
 	for (i = '0'; i <= 9; i++)
