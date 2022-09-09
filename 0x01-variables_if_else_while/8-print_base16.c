@@ -3,7 +3,8 @@
 /**
  * main - prints base 16 numbers in lowercase
  *
- * Description: the main function takes numbers in base 16 and prints them in lowercase
+ * Description: the main function takes numbers
+ * in base 16 and prints them in lowercase
  *
  * Return: 0
  *
