@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - assign a random number to the variable n each           
+ * main - assign a random number to the variable n each          
  *	time and prints the  last number stored
  *
  * Return: Always 0.
