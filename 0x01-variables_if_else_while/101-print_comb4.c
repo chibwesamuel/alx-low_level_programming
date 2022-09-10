@@ -17,10 +17,10 @@ int main(void)
 		for (b = 0; b <= 9; b++)
 			for (c = 0; c <= 9; c++)
 				if (c > b && b > a)
-					putchar(a, b, c);
-	/*putchar(b + '0');*/
-	/*putchar(c + '0');*/
-	if (a != 7)
+					putchar(a + '0' + '0');
+	putchar(b + '0' + '0');
+	putchar(c + '0' + '0');
+	if (a != 9)
 		putchar(',');
 	/*putchar(' ');*/
 	putchar('\n');
