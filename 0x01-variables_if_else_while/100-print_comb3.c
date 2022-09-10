@@ -18,8 +18,8 @@ int main(void)
 	for (i = 0; i <= 9; i++)
 		for (x = 0; x <= 9; x++)
 			if (x > i)
-				putchar('0' + i);
-	putchar('0' + x);
+				putchar("%02d ", i);
+	putchar("%02d ", x);
 	if (i != 8)
 		putchar(',');
 	putchar(' ');
