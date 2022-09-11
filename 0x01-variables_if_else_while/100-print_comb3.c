@@ -16,9 +16,9 @@ int main(void)
 
 	for (i = 0; i <= 89; i++)
 	{
-		putchar((i/10)+'0');
-		putchar((i%10)+'0');
-		if (i != 88)
+		putchar((i / 10) + '0');
+		putchar((i % 10) + '0');
+		if (i <= 88)
 			putchar(',');
 		putchar(' ');
 	}
