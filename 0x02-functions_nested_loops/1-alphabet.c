@@ -3,7 +3,8 @@
 /**
  * main - function prints alphabet letters
  *
- * Description: prints alphabet letters
+ * Description: through print_alphabet function
+ * prints alphabet letters
  *
  * Return: 0
  */
