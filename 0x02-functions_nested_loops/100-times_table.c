@@ -8,7 +8,7 @@
  *
  */
 
-void print_times_table(int n)
+void print_times_table(void)
 {
 	int row, column, tableValue, n;
 
