@@ -3,15 +3,13 @@
 /**
  * add_num - function that adds two numbers
  *
- * @one: fist number
- * @two: second number
+ * @num1: fist number
+ * @num2: second number
  * Return: result of the addition
  *
  */
 
-void add_num(void)
+int add(int num1, int num2);
 {
-	int add(int one, int two);
-
-	return (one + two);
+	return (num1 + num2);
 }
