@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * add_num - function that adds two numbers
+ * add - function that adds two numbers
  *
  * @num1: fist number
  * @num2: second number
