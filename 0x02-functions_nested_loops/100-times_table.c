@@ -14,14 +14,17 @@ int main(void)
 	n = 10;
 	for (column = 1; column <= n; column++)
 		printf(" %3d", column);
+	_putchar('\n');
 	
 	for (row = 1;row <= n; row++)
 		printf(" %2d", row);
+	_putchar('\n');
 	
 	for (column = 1; column <= n; column++)
 		tableValue = row * column;
+	_putchar('\n');
 	if (row <= 0 || row >= 15)
-		break;
+	_putchar("");
 	else
 		printf(" %3d", tableValue);
 
