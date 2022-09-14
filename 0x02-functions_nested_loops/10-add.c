@@ -5,7 +5,7 @@
  *
  * @one: fist number
  * @two: second number
- * Return: 0
+ * Return: result of the addition
  *
  */
 
