@@ -9,15 +9,22 @@
 
 void print_square(int size)
 {
-	int inc1, inc2;
+	int co, ro;
 
-	if (size > 0)
-		for (inc1 = 0; inc1 < size; inc1++)
-			for (inc2 = 0; inc2 < (size - 1); inc2++)
-				putchar('#');
-	putchar('#');
-	putchar('\n');
-
-	else
+	if (size <= 0)
+	{
 		putchar('\n');
+	}
+	else
+	{
+		for (co = 1; co <= size; co++)
+		{
+			putchar('#');
+			for (ro = 2; ro <= size; ro++)
+			{
+				putchar('#');
+			}
+			putchar('\n');
+		}
+	}
 }
