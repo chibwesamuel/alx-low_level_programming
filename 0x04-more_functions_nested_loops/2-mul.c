@@ -1,7 +1,10 @@
 #include "main.h"
 
 /**
- * mul - gunction that multiplies to intergers
+ * mul - function that multiplies to intergers
+ *
+ * @a: first number
+ * @b: second number
  *
  * return: 0
  */
