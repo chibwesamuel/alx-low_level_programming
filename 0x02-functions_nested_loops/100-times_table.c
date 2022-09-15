@@ -23,10 +23,12 @@ int main(void)
 	for (column = 1; column <= n; column++)
 		tableValue = row * column;
 	_putchar('\n');
-	if (row <= 0 || row >= 15)
-	_putchar('null');
-	else
-		printf(" %3d", tableValue);
+	/*
+	 * if (row <= 0 || row >= 15)
+	 * _putchar('null');
+	 * else
+	 */
+	printf(" %3d", tableValue);
 
 	return (0);
 }
