@@ -1,8 +1,7 @@
-#include <stdio>
 #include "main.h"
 
 /**
- * mul - function that multiplies to intergers
+ * mul - multiplies two numbers
  *
  * @a: first number
  * @b: second number
