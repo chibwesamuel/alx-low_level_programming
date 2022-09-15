@@ -24,7 +24,7 @@ int main(void)
 		tableValue = row * column;
 	_putchar('\n');
 	if (row <= 0 || row >= 15)
-	_putchar("");
+	_putchar('null');
 	else
 		printf(" %3d", tableValue);
 
