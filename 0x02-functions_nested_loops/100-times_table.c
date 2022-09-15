@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * print_times_table - Entry point
  * @n: size of table
  * Return: Always 0 (Success)
  *
  */
 
-int main(void)
+int print_times_table(void)
 {
 	int row, column, tableValue, n;
 	n = 10;
