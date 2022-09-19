@@ -4,8 +4,8 @@
 
 /**
  * print_rev - a function that reverses the content of an array of int
- * @a: content
- * @n: elements of content as it be
+ * @s: content
+ * 
  * Return: 0
  */
 
