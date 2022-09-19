@@ -5,7 +5,7 @@
 /**
  * print_rev - a function that reverses the content of an array of int
  * @s: content
- * 
+ *
  * Return: 0
  */
 
