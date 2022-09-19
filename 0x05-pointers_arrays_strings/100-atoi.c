@@ -9,7 +9,7 @@
 
 int _atoi(char *s)
 {
-	s = 4;
+	char s[2] = {'4','10'};
 	int i = _atoi(s);
 
 	putchar(i);
