@@ -11,7 +11,7 @@ int _atoi(char *s)
 {
 	int i;
 
-	i = atoi(s);
+	i = _atoi(s);
 
-	putchar("i = %d\n",i);
+	putchar(i);
 }
