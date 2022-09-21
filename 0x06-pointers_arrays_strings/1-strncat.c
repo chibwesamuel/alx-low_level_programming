@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio>
 
 /**
  * _strncat - function that concatenates two strings add number of bytes
