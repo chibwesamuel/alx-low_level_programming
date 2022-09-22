@@ -20,7 +20,6 @@ void print_number(int n)
 		res = n;
 		_putchar('-');
 	}
-	
 	temp = res;
 	while (temp <= -10)
 	{
