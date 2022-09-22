@@ -1,5 +1,13 @@
+#include "main.h"
 #include <stdio.h>
 
+/**
+ * main - prints a[2] = 98, followed by a new line
+ * @a: array
+ * @n: integer to be used
+ *
+ * Return: 0
+ */
 
 int main(void)
 {
