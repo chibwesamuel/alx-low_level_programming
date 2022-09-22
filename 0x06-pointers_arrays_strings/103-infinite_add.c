@@ -6,6 +6,7 @@
  * @n1: number 1
  * @n2: number 2
  * @r: return value
+ * @size_r: holds size of buffer
  *
  * Return: result of addition
  */
@@ -13,7 +14,10 @@
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int i, j, n;
-	i = j = n = 0;
+
+	i = 0;
+	j = 0;
+	n = 0;
 
 	if ((n1[0] - '0') + (n2[0] - '0') >= 10)
 	{
