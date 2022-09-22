@@ -14,6 +14,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int i, j, n;
 	i = j = n = 0;
+
 	if ((n1[0] - '0') + (n2[0] - '0') >= 10)
 	{
 		r[0] = 1 + '0';
