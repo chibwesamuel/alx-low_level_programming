@@ -11,7 +11,7 @@
 char *leet(char *s)
 {
 	int i, j;
-	char subs[] = "aAeEtTlL";
+	char subs[] = "aAeEoOtTlL";
 	char le[] = "43071";
 
 	i = 0;
