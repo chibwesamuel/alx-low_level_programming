@@ -5,7 +5,9 @@
 /**
  * check - checks if a string is a palindrome
  * @s: string to be checked
- *
+ * @start: starting point in check
+ * @end: finishing point
+ * @flag: warning indicator
  * Return: 1 if true and 0 if false
  */
 
@@ -32,6 +34,6 @@ int is_palindrome(char *s)
 {
 	int flag = 1;
 
-	check (s, 0, strlen(s) - 1, &flag);
+	check(s, 0, strlen(s) - 1, &flag);
 	return (flag);
 }
