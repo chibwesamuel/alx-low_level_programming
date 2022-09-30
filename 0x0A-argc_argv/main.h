@@ -8,5 +8,6 @@
  * int prototypes()
  */
 int main(int argc, char* argv[]);
+int mul(int, int);
 
 #endif /*MAIN_H*/
