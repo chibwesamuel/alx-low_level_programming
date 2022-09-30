@@ -9,7 +9,7 @@
  * Return: Always 0
  */
 
-int main(ing argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int index, multiplication;
 
