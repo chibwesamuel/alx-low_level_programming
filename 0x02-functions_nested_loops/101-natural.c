@@ -1,8 +1,3 @@
-/**
- * File: 101-natural.c
- * Author: Samuel Mukosa Chibwe
- */
-
 #include <stdio.h>
 #include "main.h"
 
