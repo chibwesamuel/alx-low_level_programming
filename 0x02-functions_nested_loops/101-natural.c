@@ -1,3 +1,9 @@
+/**
+ * File: 101-natural.c
+ * Author: Samuel Mukosa Chibwe
+ */
+
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -8,13 +14,16 @@
  *
  */
 
-int main(voi)
+int main(void)
 {
-	total_sum = 0
-	
-	for i in range(1, 1000):
-		if (i % 3 == 0 or i % 5 == 0):
-			total_sum = total_sum + i
-		
-		printf(total_sum);
+	int i, sum = 0;
+
+	for (i = 0; i < 1024; i++)
+	{
+		if ((i % 3) == 0 || (i % 5) == 0)
+			sum += i;
+	}
+	printf("%d\n", sum);
+
+	return (0);
 }
