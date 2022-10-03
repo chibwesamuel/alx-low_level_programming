@@ -4,7 +4,7 @@
 /**
  * str_concat - function that concatenates two strings.
  * @s1: first string to be used
- * @s: second string to be used
+ * @s2: second string to be used
  *
  * Return: concatenated string
  * Auth: Samuel Chibwe
