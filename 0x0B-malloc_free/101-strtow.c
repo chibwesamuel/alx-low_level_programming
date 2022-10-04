@@ -3,7 +3,6 @@
 
 int word_len(char *str);
 int count_words(char *str);
-char **strtow(char *str);
 
 /**
  * strtow - function that splits a string into words.
@@ -14,7 +13,8 @@ char **strtow(char *str);
 
 char **strtow(char *str)
 {
-	int index = 0, len = 0;
+	int index = 0;
+	int len = 0;
 
 	while (*(str + index) && *(str + index) != ' ')
 	{
