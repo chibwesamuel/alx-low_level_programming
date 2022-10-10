@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	printf("%s\n",__BASE_FILE__);
+	printf("%s\n",_BASE_FILE_);
 
 	return (0);
 }
