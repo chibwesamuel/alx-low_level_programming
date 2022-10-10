@@ -8,9 +8,6 @@
  * @name: name of the dog
  * @age: age of the dog
  * @owner: owner of the dog
- *
- * Description: This stucture defines a dog and links
- * this data with owner
  */
 
 struct dog
