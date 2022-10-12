@@ -1,8 +1,8 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef FUNCTION_POINTERS_H
+#define FUNCTION_POINTERS_H
 
 /**
- * file: main.h
+ * file: FUNCTION_POINTERS_H
  * author: Chibwe Samuel Mukosa
  * description: this is a header file containing all prototypes
  */
