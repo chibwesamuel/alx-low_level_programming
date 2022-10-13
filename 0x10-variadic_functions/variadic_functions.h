@@ -6,7 +6,9 @@
 /**
 * File: variadic_functions.h
 * By: Samuel Mukosa Chibwe
-* Description: includes all prototypes of functions and putchar
+* @_putchar: function to print characters
+* @c: character to be printed
+* Desc: includes all prototypes of functions and putchar
 */
 
 int _putchar(char c);
