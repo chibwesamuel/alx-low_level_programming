@@ -5,7 +5,7 @@
 /**
  * sum_them_all - function that returns the sum of all its parameters
  * @n: parameter placeholder
- *
+ * @...: additional parameters
  * Return: Sum of given parameters
  */
 
