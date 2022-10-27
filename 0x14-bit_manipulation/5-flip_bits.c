@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * clear_bit - Sets the value of a bit at a given index to 0.
+ * flip_bits - returns the number of bits you would need
+ * to flip to get from one number to another
  * @n: A pointer to the bit.
- * @index: The index to set the value at - indices start at 0.
+ * @m: The number to flip n to.
  *
  * Return: The necessary number of bits to flip to get from n to m.
  */
