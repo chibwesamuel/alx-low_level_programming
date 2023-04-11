@@ -193,7 +193,7 @@ Write a function that searches for a value in a sorted array of integers.
 You might think that linear search is not as effective as any other algorithm, right? Well, we should see what happens with a singly linked list.
 
 Please define the following data structure in your search_algos.h header file:
-````
+
 /**
  * struct listint_s - singly linked list
  *
@@ -209,7 +209,7 @@ typedef struct listint_s
     size_t index;
     struct listint_s *next;
 } listint_t;
-````
+
 Write a function that searches for a value in a sorted list of integers using the Jump search algorithm.
 
     Prototype : listint_t *jump_list(listint_t *list, size_t size, int value);
@@ -249,7 +249,7 @@ typedef struct skiplist_s
     struct skiplist_s *next;
     struct skiplist_s *express;
 } skiplist_t;
-````
+
 Write a function that searches for a value in a sorted skip list of integers.
 
     Prototype : skiplist_t *linear_skip(skiplist_t *list, int value);
