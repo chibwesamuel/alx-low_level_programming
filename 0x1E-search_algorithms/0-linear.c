@@ -17,8 +17,10 @@ int linear_search(int *array, size_t size, int value)
 	{
 		if (array[i] == value)
 		{
+			printf("Value %d found at index %zu\n", value, i);
 			return i;
 		}
 	}
+	printf("Value %d found at index %zu\n", value);
 	return -1;
 }
