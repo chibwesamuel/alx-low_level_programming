@@ -12,6 +12,7 @@
  */
 
 int linear_search(int *array, size_t size, int value)
+{
 	int array[] = {
 		10, 1, 42, 3, 4, 42, 6, 7, -1, 9
 	};
@@ -34,3 +35,4 @@ int linear_search(int *array, size_t size, int value)
 			return (-1);
 		}
 	}
+}
