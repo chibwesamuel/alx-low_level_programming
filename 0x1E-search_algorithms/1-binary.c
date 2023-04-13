@@ -33,26 +33,3 @@ int linear_search(int *array, size_t size, int value)
 	}
 	return (-1);
 }
-
-/**
- * main - entry point for the function
- * Return: value and index found
- */
-
-int main(void)
-{
-	int array[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
-	size_t size = sizeof(array) / sizeof(array[0]);
-	int value = 2, 5, 999;
-
-	int index = binary_search(array, size, value);
-
-	if (index == -1)
-	{
-		printf("Value not found");
-	} else
-	{
-		printf("Found %d at index: %d\n", value, index);
-	}
-	return (0);
-}
