@@ -9,6 +9,8 @@
  * @value: value to search for
  *
  * Return: first index where value is located, otherwise return -1.
+ *
+ * Description: Uses Linear search algorithm to traverse an array
  */
 
 int linear_search(int *array, size_t size, int value)
