@@ -22,7 +22,9 @@ int linear_search(int *array, size_t size, int value)
 	{
 		if (array[i] == value)
 		{
-			printf("Value %d found at index %zu\n", value, i);
+			printf("Found %d at index: %d\n\n", 3, linear_search(array, size, 3));
+			printf("Found %d at index: %d\n\n", 42, linear_search(array, size, 42));
+			printf("Found %d at index: %d\n\n", 42, linear_search(array, size, 42));
 			return (i); /*return index at which value is found*/
 		}
 	}
