@@ -13,21 +13,15 @@
 
 int linear_search(int *array, size_t size, int value)
 {
-	int array[] = {
-		10, 1, 42, 3, 4, 42, 6, 7, -1, 9
-	};
-	size_t size = sizeof(array) / sizeof(array[0]);
+	size_t i;
 
-	for (size_t i = 0; i < size; i++)
+	for (i = 0; i < size; i++)
 	{
+		printf("Value checked array[%ld] = [%d]\n", i, array[i]);
 		if (array[i] == value)
-		{
-			printf("Found %d at index: %d\n\n", 3, linear_search(array, size, 3));
-			printf("Found %d at index: %d\n\n", 42, linear_search(array, size, 42));
-			printf("Found %d at index: %d\n\n", 42, linear_search(array, size, 42));
-			return (i); /*return index at which value is found*/
-		}
+			return (i);
 	}
-	printf("Value %d not found\n", value);
-	return (-1); /*value is not present in array*/
+
+	if (array == NULL)
+		return (-1);
 }
